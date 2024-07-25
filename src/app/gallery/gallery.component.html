@@ -1,0 +1,12 @@
+<div class="container">
+   <div class="row">
+        <div class=" card col-4" *ngFor = 'let lst of appList'>
+            <img width="100%" height="100%" *ngIf = "lst.ID <   4" [src] = 'lst.url'>
+       </div>
+   </div>
+   <div class="row ">
+        <div class=" card col-4" *ngFor = 'let lst of appList'>
+            <img width="100%" height="100%" *ngIf = "lst.ID >3" [src] = 'lst.url'>
+       </div>
+   </div>
+</div>

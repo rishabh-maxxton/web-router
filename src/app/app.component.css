@@ -1,0 +1,97 @@
+/* Reset and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #343a40; /* Dark text color */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  
+  /* Carousel Styling */
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #fff; /* White color for controls */
+  }
+  
+  /* Dropdown Styling */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Light gray background */
+    border: none;
+  }
+  
+  .dropdown-menu a {
+    color: #343a40; /* Dark text color */
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #007bff; /* Blue on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Media Queries (Responsive Design) */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-left: 0;
+    }
+  
+    .navbar-brand {
+      margin-right: auto;
+    }
+  
+    .carousel-item img {
+      height: 250px; /* Adjust height for smaller screens */
+    }
+  }
+  

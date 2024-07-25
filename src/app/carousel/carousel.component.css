@@ -1,0 +1,7 @@
+/* Example custom CSS */
+.carousel-item img {
+    max-height: 400px; /* Set maximum height for images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire carousel item */
+  }
+  
+  
